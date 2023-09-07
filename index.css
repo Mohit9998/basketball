@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(152, 251, 218);
+}
+
+.center-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.container {
+    border: 5px solid #EEE;
+    background-color: #1B244A;
+    margin: 25px auto;
+    width: 575px;
+    height: 385px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+
+#winner-display {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    font-style: italic;
+    color: white;
+    text-shadow: 0px 0px 8px greenyellow;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+}
+
+#time-title {
+    position: absolute;
+    align-self: center;
+    top: 8px;
+    color: #EEE;
+    font-weight: bold;
+    font-size: 11px;
+}
+#time {
+    border: 2px solid #EEE;
+    align-self: center;
+    background-color: #080001;
+    color: red;
+    position: absolute;
+    top: 25px;
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+    padding: 1px;
+    width: 25px;
+    border-radius: 5px;
+    padding-top: 2px;
+}
+
+section {
+    margin: 25px;
+    width: 95%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.team {
+    font-weight: bold;
+    font-size: 40px;
+    color: #EEE;
+}
+
+.score {
+    background-color: #080001;
+    color: #F94F6D;
+    height: 120px;
+    width: 155px;
+    border-radius: 5px;
+    margin-top: -25px;
+    font-weight: 400;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+}
+
+.btn {
+    background-color: #1B244A;
+    margin-top: 25px;
+    width: 155px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Black Ops One', cursive;
+}
+
+.btn button {
+    border: 2px solid #9AABD8;
+    background-color: #1B244A;
+    color: #9AABD8;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#new-game {
+   border: 3px solid #9AABD8;
+   color: #9AABD8;
+   width: 200px; 
+   margin-bottom: 50px;
+   justify-content: center;
+   align-self: center;    
+}
+
+.highlight {
+    box-shadow: 0px 0px 25px greenyellow;
+}
+
+#foot {
+    margin-top: 100px;
+    color: black;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>  
+    <!-- <script src="index.pack.js"></script>   -->
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div id="time-title">TIME</div>
+            <div id="time">60</div>
+            <section>     
+                <div>
+                    <h3 class="team">HOME</h3>
+                    <div id="score-home" class="score center-items">0</div>
+                    <div class="btn">
+                        <button onclick="scoreHomePlus1()">+1</button>
+                        <button onclick="scoreHomePlus2()">+2</button>
+                        <button onclick="scoreHomePlus3()">+3</button>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="team">GUEST</h3>
+                    <div id="score-guest" class="score center-items">0</div>
+                    <div class="btn">
+                        <button onclick="guestScorePlus1()">+1</button>
+                        <button onclick="guestScorePlus2()">+2</button>
+                        <button onclick="guestScorePlus3()">+3</button>
+                    </div>
+                </div>
+            </section>
+            <button id="new-game" class="btn" onclick="newGame()">New Game</button>
+            <div id="winner-display"></div>
+        </div> 
+        <footer id="foot">
+            <p>Creater:- Mohit Sharma<br>
+            <a href="mohitusharma@outlook.com" target="_blank">mohitusharma@outlook.com</a></p>
+        </footer>
+    </body>
+</html>

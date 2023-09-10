@@ -12,7 +12,7 @@ let scoreGuest = 0;
 disableStartButton();
 
 // Start Timmer
-startTimmer();    
+startTimmer();
     
 // Home Score    
 function scoreHomePlus1 (){

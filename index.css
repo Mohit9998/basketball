@@ -14,7 +14,7 @@ body {
 
 .container {
     border: 5px solid #EEE;
-    background-color: #1B244A;
+    background-color: #6e32a0;
     margin: 25px auto;
     width: 575px;
     height: 385px;
@@ -80,7 +80,7 @@ section {
 
 .score {
     background-color: #080001;
-    color: #F94F6D;
+    color: #f51942;
     height: 120px;
     width: 155px;
     border-radius: 5px;
@@ -92,7 +92,7 @@ section {
 }
 
 .btn {
-    background-color: #1B244A;
+    background-color: #320a53;
     margin-top: 25px;
     width: 155px;
     height: 45px;
